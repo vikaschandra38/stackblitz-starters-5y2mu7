@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <section>
+      <fieldset>
+      <legend>
+        Is anyone in your household participating in an allowable work program?
+        Work programs provide education, training and other supportive services
+        to job seekers looking to gain new or different employment.
+      </legend>
+
+            <p>
+        Please check the box (or boxes) to tell us who is participating in an
+        allowable work program.
+      </p>
+
+      <div>
+        <input type="checkbox" id="first" checked/>
+        <label for="first">FOURTYFIVE</label>
+        <input type="checkbox" id="second" />
+        <label for="second">TWENTY</label>
+      </div>
+
+
+      <div class="questions">
+      <p>Please answer about <b><i><span id="check-value">FOURTYFIVE</span> </i></b> work program participation.</p>
+      <ul>
+        <li>
+          <div class="flex">
+            <p>Which work program is the individual participating in?</p>
+            <select>
+              <option value="fourty-five">Fourty Five</option>
+              <option value="twenty">Twenty</option>
+              <option value="other">Other</option>
+            </select>
+        </li>
+        <li>
+          <div class="flex">
+            <p>On average, how many hours per month does this individual participate in the selected work program?</p>
+            <input type="text" value="10"/>
+          </div>
+        </li>
+      </ul>
+      </div>
+      </fieldset>
+    </section>
+
+    <section id="first-content">
+      <h3>FOURTYFIVE:</h3>
+      <p>Sample content about fourty-five selection</p>
+    </section>
+
+    <section id="second-content" class="hide">
+      <h3>TWENTY:</h3>
+      <p>Sample content about twenty selection</p>
+    </section>
+  </body>
+</html>

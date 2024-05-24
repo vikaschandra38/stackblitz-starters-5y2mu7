@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+  margin: 30px 60px;
+}
+
+fieldset {
+  border: 2px solid;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+fieldset legend,
+p {
+  font-weight: 600;
+}
+
+.questions {
+  padding: 10px 50px;
+}
+
+.questions ul {
+  list-style-position: outside;
+  padding-left: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+input[type='checkbox'] + label {
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
